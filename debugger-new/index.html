@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>Debugger Session</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head> 
+	<body> 
+		<div class="main_wrapper">
+            <div class="upper_wrap">
+                <div id="Accunt_head">Account Portal</div>
+                <div id="User_head">Jane Doe</div>
+            </div>
+            <div class="center_wrap">
+                <div id="debug_head">
+                    <div id="head1">Debugger</div><div id="head2">An Opentok Diagnostic Tool</div>
+                </div>
+                <div id="session_body">
+                    <div id="session_head">Session type</div>
+                    <div id="session_type">
+                        <div id="session_t1">New</div>
+                        <div id="session_t2">Join existing session</div>
+                    </div>   
+                    <div id="session_wrap">
+                        <div id="session_info" class="session_divs">
+                            <div id="info_left" class="session_left">Create Session</div>
+                            <div id="info_right" class="session_right">When you connect to an OpenTok session on an app, you specify the session you want to connect to using an OpenTok session ID. Each session ID identifies a unique OpenTok session. You can think of a session as a room in which participants meet and chat.For more information visit our <a href="#">developer docs</a>.</div>
+                        </div>
+                        <div id="session_api" class="session_divs">
+                            <div id="api_left" class="session_left">API Key</div>
+                            <div id="ap_right" class="session_right">45282042</div>
+                        </div>
+                        <div id="session_tb" class="session_divs">
+                            <div id="tb_left" class="session_left">TB Version</div>
+                            <div id="tb_right" class="session_right">
+                                <select>
+                                  <option value="recent">Most Recent</option>
+                                  <option value="2.7.1">2.7.1</option>
+                                  <option value="2.7">2.7</option>
+                                  <option value="2.6.9">2.6.9</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="session_mode" class="session_divs">
+                            <div id="mode_left" class="session_left">P2P</div>
+                            <div id="mode_right" class="session_right">
+                                       <label class="session_radio"> <input type="radio" name="mode" value="routed"> Routed </label>
+                                       <label class="session_radio"> <input type="radio" name="mode" value="relayed"> Relayed </label>
+                            </div>
+                        </div>
+                        <div id="session_role" class="session_divs">
+                            <div id="role_left" class="session_left">Token Role</div>
+                            <div id="role_right" class="session_right">
+                                       <label class="session_radio"> <input type="radio" name="role" value="moderator"> Moderator </label>
+                                       <label class="session_radio"> <input type="radio" name="role" value="publisher"> Publisher </label>
+                                       <label class="session_radio"> <input type="radio" name="role" value="subscriber"> Subscriber </label>
+                            </div>
+                        </div>
+                        <div id="session_token" class="session_divs">
+                            <div id="token_left" class="session_left">Token Metadata</div>
+                            <div id="token_right" class="session_right">
+                                        <input type="text" name="token" value="" placeholder="type or paste in metadata" size="40">
+                                        
+                            </div>
+                        </div>
+                        <div id="session_btn" class="session_divs">
+                            <div id="btn_left" class="session_left"></div>
+                            <div id="btn_right" class="session_right">
+                                        <button type="button" id="create_btn">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+	</body> 
+</html>

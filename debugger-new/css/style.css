@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'Muli';
+    src: url(../font/muli.light.ttf);
+}
+a{
+  color: #0099cc;  
+text-decoration: none;
+}
+body {
+     font-family: 'Muli',sans-serif;
+    background: #efefef;
+    font-size: 14px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.main_wrapper{
+    padding-bottom:  80px;
+}
+
+.upper_wrap {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: #303030;
+    color: #fff;
+}
+#Accunt_head{
+      float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+#User_head{
+       float: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+.center_wrap {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+#debug_head {
+    background: #0099cb;
+background: -moz-linear-gradient(top, #0099cb 0%, #0099cb 0%, #0490b3 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #0099cb), color-stop(0%, #0099cb), color-stop(100%, #0490b3));
+background: -webkit-linear-gradient(top, #0099cb 0%, #0099cb 0%, #0490b3 100%);
+background: -o-linear-gradient(top, #0099cb 0%, #0099cb 0%, #0490b3 100%);
+background: -ms-linear-gradient(top, #0099cb 0%, #0099cb 0%, #0490b3 100%);
+background: linear-gradient(to bottom, #0099cb 0%, #0099cb 0%, #0490b3 100%);
+    margin: 40px 0 0 0;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #008ac4;
+    height: 80px;
+}
+#head1 {
+       font-size: 32px;
+    display: block;
+    margin-top: 5px;
+}
+#head2{
+    margin-top: 10px;
+    display: block;
+    color: #82d0e8;
+    letter-spacing: 0.3px;
+}
+#session_body{
+      background: #fff;
+    padding: 15px 0px;
+    border-radius: 5px;
+    display: block;
+    border: solid 1px #ced7db;
+    margin-top: 25px;
+}
+#session_head{
+      font-size: 22px;
+    width: 94%;
+    display: inline-block;
+    border-bottom: 1px solid #999;
+    padding-bottom: 7px;
+    margin: 15px 30px 25px;
+}
+#session_type{
+      border-bottom: 1px solid #999;
+    padding: 0 30px 0px 30px;
+    height: 30px;
+}
+#session_t1{
+     text-align: center;
+    width: 100px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+#session_t1:hover{
+    color: #0099cb;
+    font-weight: bold;
+  border-bottom: 3px solid #0099cb;
+}
+#session_t2 {
+    width: 160px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+#session_t2:hover{
+    color: #0099cb;
+    font-weight: bold;
+  border-bottom: 3px solid #0099cb;
+}
+#session_wrap{
+    width: 90%;
+    margin: 20px auto;
+}
+.session_divs{
+        width: 90%;
+    display: inline-block;
+    clear: both;
+    margin: 15px 0;
+}
+.session_left{
+        width: 28%;
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+.session_right{
+    float: right;
+    width: 67%;
+}
+#info_left{
+    font-weight: bold;
+}
+#info_right {
+    line-height: 1.5;
+}
+.session_radio{
+        width: 110px;
+    float: left;
+    display: inline-block;
+}
+#token_left{
+    line-height: 2.5;
+}
+#token_right input{
+    height: 35px;
+    background: #fff;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 380px;
+    font-size: 14px;
+}
+#tb_right select{
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    height: 30px;
+    width: 135px;
+    opacity: 0.8;
+    border-radius: 4px;
+    background: #fff;
+}
+#create_btn{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    background: #0099cc;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
